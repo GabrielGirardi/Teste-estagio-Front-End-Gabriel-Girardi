@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-size: 14px;
+    margin: 0px;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #989898;
+}
+
+#backgroundImg {
+    margin-left: -13rem;
+    width: 80%;
+    float: left;
+} 
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+#content {
+    background: #FFF;
+    width: 32%;
+    float: left;
+}
+
+
+#titleTxt {
+    color: #0587FF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 163%;
+    margin: 6.688rem 0 0 0;
+}
+
+#subtitleTxt{
+    font-size: 86%;
+}
+
+#titleLogo {
+    margin: 6.688rem 1rem 0 4.375rem;
+}
+
+
+div.tet{
+    text-decoration: none;
+    font-family: Roboto;
+    color: #989898;
+    margin-left: 6.75;
+    position: relative;
+    
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type=text]:hover+label:hover {
+text-decoration: none;
+    color:black;
+        
+
+
+
+
+}
+
+input[type=text], input[type=tel]{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+    border-bottom: 0.15rem solid #ccc;
+    margin: auto; 
+}
+
+input[type=text]:hover, input[type=text]:focus, input[type=tel]:hover, input[type=tel]:focus{
+    border: none;
+    border-bottom: 0.15rem solid #0587FF;
+    
+}
+
+.tet:focus-within {
+    color: black;
+    font-weight: bold;
+  }
+
+.inputAnexarCurriculo {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 90px;
+    cursor: pointer;
+    border-width: 1px;
+    border-top-left-radius:250px;
+    border-top-right-radius:250px;
+    border-bottom-left-radius:250px;
+    border-bottom-right-radius:250px;
+    border-color: #57AEFF;
+    color: #57AEFF;
+}
+
+.buttonClass {
+
+    background: #57AEFF;
+    background-image: -webkit-linear-gradient(top, #57AEFF, #57AEFF);
+    background-image: -moz-linear-gradient(top, #57AEFF, #57AEFF);
+    background-image: -ms-linear-gradient(top, #57AEFF, #57AEFF);
+    background-image: -o-linear-gradient(top, #57AEFF, #57AEFF);
+    background-image: linear-gradient(to bottom, #57AEFF, #57AEFF);
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 40px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 110%;
+    padding: 0.625em 4.00em 0.625em 4.00em;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 3rem;
+    margin-bottom: 7rem;
+}
+.buttonClass:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.buttonClass2{
+color:#989898;
+font-family: Roboto;
+text-decoration:none;
+font-size: 100%;
+padding:  10px 20px 10px 20px;
+float: left;
+}
+
+
+.botoes{
+
+display: flex;
+justify-content: flex-end /* flex-start, flex-end, space-between, space-evenly, space-around */;
+
+}
+
+
+.t1{
+margin-left: 4.375rem;
+}
+
+.t2{
+    margin-left: 7.375rem;
+    margin-right: 2rem;
+}
+
+.tet{
+
+font-family: Roboto;
+color: #989898;
+
+
+}
+
+.anexararquivo, .inputAnexarCurriculo{
+
+display:flex;
+align-items: center;
+    
+
+
+}
+
+.arrow, .t1{
+
+margin-bottom:-0.50rem;
+display:inline-block;
+align-items: center;
+}
